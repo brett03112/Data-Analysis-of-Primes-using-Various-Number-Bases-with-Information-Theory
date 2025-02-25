@@ -115,7 +115,7 @@ These visualizations show the frequency distribution of digits at different posi
 1. Generate prime numbers and their representations:
 
    ```bash
-   python primes.py --limit 1000000
+   python primes.py --limit 1000000000
    ```
 
 2. Analyze the patterns:
