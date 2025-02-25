@@ -83,7 +83,7 @@ Let's define the core concepts, presented mathematically:
         * $C$ is measured in bits per second (bps).
         * This theorem sets a theoretical limit on communication efficiency.
 
-**III. Applying Information Theory to Unknown Languages**
+## **III. Applying Information Theory to Unknown Languages**
 
 1. **Signal Segmentation:**
     * **Problem:** How do we divide the continuous signal into meaningful units (analogous to phonemes, syllables, or words)?
@@ -121,7 +121,7 @@ Let's define the core concepts, presented mathematically:
     * Use information-theoretic measures (entropy, mutual information, KL-divergence) to compare the unknown language to known human languages.
     * Similar statistical profiles might suggest related language families or underlying cognitive constraints.
 
-**IV. Theoretical Considerations and Extensions**
+## **IV. Theoretical Considerations and Extensions**
 
 1. **Minimum Description Length (MDL):**
     * Concept: A principle stating that the best "explanation" of data is the one that provides the shortest description (including both the model and the data encoded using that model).
@@ -140,13 +140,15 @@ Let's define the core concepts, presented mathematically:
     * If the nature of an alien transmission medium is unknown, initial steps should be taken to try to learn the constraints of the channel. We would look at repeating signals, trying to detect if a repeating set of data is subtly changing over long distances due to an imperfect (noisy) channel.
     * Once hypotheses are made for the kinds of changes or errors the signal goes through, techniques can be constructed for reversing this degradation.
 
-**V. Challenges and Limitations**
+## **V. Challenges and Limitations**
 
 1. **The "Semantic Gap":**  Information theory can reveal the *structure* of a language but not its *meaning*.  Bridging the semantic gap requires contextual information or a "Rosetta Stone."
 2. **Computational Complexity:**  Calculating some information-theoretic measures (especially for high-order dependencies) can be computationally expensive, particularly for large datasets.
 3. **Assumption of Stationarity:**  Many information-theoretic calculations assume that the underlying statistical properties of the signal are constant over time (stationary).  This may not hold for all communication systems.
 4. **Choice of "Symbols":**  The initial segmentation of the signal into "symbols" is crucial, and a poor choice can obscure meaningful patterns.
 
-**VI. Conclusion: Information as a Universal Key**
+## **VI. Conclusion: Information as a Universal Key**
 
 Information theory provides a powerful and universal mathematical framework for analyzing communication systems, regardless of their origin or the specific meanings they convey. By quantifying information content, redundancy, and dependencies, we can gain insights into the underlying structure of unknown languages, paving the way for potential decipherment and a deeper understanding of communication in all its forms. This is a fundamental, data-driven, and model-comparison-based approach, leveraging the objective and measurable aspects of *information* itself.
+
+### @/primes.py @/decimal_primes.txt @/hexadecimal_primes.txt @/octal_primes.txt @/binary_primes.txt Using the attached files that contain the various base number representations of all primes below 1_000_000_000, write a data analysis program @/data_analysis_primes.py that looks for patterns within the various representations of the prime numbers. Be creative and look for patterns that are not obvious nor conventional. Use the file @/information_theory.md for a basis of what I mean using Information Theory
