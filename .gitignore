@@ -1,2 +1,8 @@
 # Ignore all text files
 *.txt
+
+# Ignore all binary files
+*.bin
+
+# Ignore Information_Theory.md
+information_theory.md
