@@ -10,7 +10,7 @@ This script generates prime numbers up to a specified limit and converts them to
 
 - **Functionality**:
   - Implements a memory-efficient segmented Sieve of Eratosthenes algorithm
-  - Generates primes up to a user-specified limit (default: 1,000,000)
+  - Generates primes up to a user-specified limit (default: 1,000,000,000)
   - Converts primes to binary, octal, and hexadecimal representations
   - Writes results to separate files for each base
 
